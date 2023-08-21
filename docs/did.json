@@ -1,0 +1,23 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:chike.xyz:tial2023sHandsOn",
+  "verificationMethod": [
+    {
+      "id": "did:web:chike.xyz:tial2023sHandsOn#key1",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "controller": "did:web:chike.xyz:tial2023sHandsOn",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "2l5Oh14gFLWRHaftXwfnGUpdG1J2sy2juKV232wtH1s",
+        "y": "_DLq2PDOQm6sjjXY9LNRlRXEaMiOhuPEWcC9WbSgad0",
+        "crv": "secp256k1"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:chike.xyz:tial2023sHandsOn#key1"
+  ],
+  "assertionMethod": [
+    "did:web:chike.xyz:tial2023sHandsOn#key1"
+  ]
+}
